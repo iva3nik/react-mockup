@@ -51,6 +51,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 0 20px;
+  animation: form-animation 1s forwards;
 }
 
 .form__input {
@@ -63,4 +64,20 @@
 
 .form__input::placeholder {
   color: black;
+}
+
+@keyframes form-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
