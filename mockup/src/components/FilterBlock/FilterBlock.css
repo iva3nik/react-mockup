@@ -1,0 +1,66 @@
+.filter {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.filter__content {
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+
+.filter__line {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.filter__title {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+  margin: 0;
+}
+
+.filter__icon {
+  background-image: url('../../images//icon.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.3s linear;
+}
+
+.filter__icon:hover {
+  opacity: 0.6;
+}
+
+.filter__main-content {
+  padding: 50px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.form__input {
+  width: 200px;
+  padding: 0 0 0 10px;
+  margin: 10px 20px 20px 0;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.form__input::placeholder {
+  color: black;
+}

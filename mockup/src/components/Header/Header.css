@@ -12,6 +12,8 @@
   font-style: normal;
   font-weight: normal;
   color: black;
+  position: sticky;
+  top: 0;
 }
 
 .header__search {
